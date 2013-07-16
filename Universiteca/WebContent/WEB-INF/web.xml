@@ -9,4 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <display-name>AdicionarUsuario</display-name>
+    <servlet-name>AdicionarUsuario</servlet-name>
+    <servlet-class>servlet.AdicionarUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdicionarUsuario</servlet-name>
+    <url-pattern>/AdicionarUsuario</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
