@@ -8,15 +8,17 @@
 </head>
 <body>
 	<form action="AdicionarUsuario" method="post">
-	  <fieldset>
-	    <label>Nome de Usuario</label>
-	    <input type="text" placeholder="Nome">
-	    
+	    <label>Nome</label>
+	    <input type="text" placeholder="Nome" name="nome">
+	   
+	    <label>CPF</label>
+	    <input type="text" placeholder="CPF" name="cpf">
+
 	    <label>Senha</label>
-	    <input type="text" placeholder="Senha">
-	    
+	    <input type="password" placeholder="Senha" name="senha">
+
 	    <button type="submit" class="btn">Enviar</button>
-	  </fieldset>
+	 
 	</form>
 </body>
 </html>

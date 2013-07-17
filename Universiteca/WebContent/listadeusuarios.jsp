@@ -9,7 +9,8 @@
 </head>
 <body>
 	<c:forEach var="usuario" items="${usuarios}">
-		<p> usuario.nome - usuario.cpf</p>
+	Heeey
+		<p> ${usuario.nome} - ${usuario.cpf}</p>
 	</c:forEach>
 </body>
 </html>

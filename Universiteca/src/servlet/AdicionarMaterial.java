@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import model.Usuario;
 import dao.BancoUsuarios;
 
-public class AdicionarUsuario extends HttpServlet {
+public class AdicionarMaterial extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
